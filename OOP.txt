@@ -1,0 +1,78 @@
+condition stmt (if,if-elif,nested if...)
+loops (for,while)
+break , continue,pass
+data types 
+operators
+string manipulation
+list
+set
+dictionary
+tuple
+functions - types,lambda, map,filter,reduce
+modules 
+file handling
+exception handling 
+OOP - Object Oriented Programming 
+	
+	prodecure oriented - each in term of procedure only
+	Ojected oriented - each in term of object 
+
+python - support OOP
+
+Concept/features must be supported by language
+
+	1. class
+	2. Object
+	3. Inheritance
+	4. Encapsulation
+	5. Polymorphisum
+	6. Abstraction
+
+1. class - blueprint of object
+	 - collection object
+	 - data members and member function
+	Human  
+	Person 	 - name,c_number,address,b_group	
+		   getDetails(), display()
+	Car
+	
+ SELF - current instance/object
+
+2. object - it's is instance of class
+		-real entity 
+	- dharmishtha , pooja
+	-Bhavesh , priyam
+	-bmw ,
+
+constructor - to initlize object
+	getDetails() - remove this 
+	
+Vehical - brand , model_year
+	
+3. inheritance
+	Parent - child 
+	property of one class can use another class
+	reusability
+
+	Person name,c_no,address
+	Employee - department,salary
+	Manager - managerial_task
+
+	Manager is employee and employee is person
+	
+	employee is person
+
+	employee has name,c_no_address and salary
+	
+	Person doesn't have deparment/salary
+
+
+
+	
+
+
+
+
+
+
+
