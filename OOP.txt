@@ -66,10 +66,30 @@ Vehical - brand , model_year
 	
 	Person doesn't have deparment/salary
 
+	Person - base class , super class
+	Employee - child ,sub class
 
+	1 Single - Person -Employee 
+	2. Multilevel - Person - Employee -Manager
+	3. Multiple - Mother - Father - Son
+	4. Hybrid - mixing of any inheritance
+	5. Hierarchical  - Mother - Son & Daughter
 
-	
-
+Polymorphisum 	- Many form
+		 1 Complie time / static binding e.g Method Overloading and Operator Overloading
+			Overloading 
+			same method name but parameters are diffrent
+			Python does not support method overloading
+			Operator Overloading +,-,*,==,>=
+			10+20
+			p1=Point (23,34)
+			p2=Point(1,2)
+			p1+p2						
+		2 Run timne / Dynamic binding
+			method Overridning (same method name , same argument)
+			
+			
+		
 
 
 
