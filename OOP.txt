@@ -84,7 +84,30 @@ Polymorphisum 	- Many form
 			10+20
 			p1=Point (23,34)
 			p2=Point(1,2)
-			p1+p2						
+			p1+p2
+
+			p3=p1+p2 Point(p1.x+p2.x , p1.y+p2.y)
+			p1 - self
+			p2 - other
+			return p3
+			
+			functions - default arguments 
+	
+
+		overloading - method -operator
+		method overloading - same function name and different arguments -not supported in python directoly
+		so we are using default parameter
+		operator overloading -- + numeric , str
+		object : special methods __add__
+		p1>p2
+		p1==p2
+		p1<=p2 - special method overloading operator
+		i=10
+		j=90
+		i<=j
+		
+
+						
 		2 Run timne / Dynamic binding
 			method Overridning (same method name , same argument)
 			
