@@ -111,11 +111,62 @@ Polymorphisum 	- Many form
 		2 Run timne / Dynamic binding
 			method Overridning (same method name , same argument)
 			
+8th Sep
+
+	Polymorphsium 
+		more then one form
+		1. Compile time/static binding 	
+			e.g method overloading / operator overloading (+,-,/,>=,<= ....)
+			directly not suported by python
+			method overloading - same method name ,arguments are different
+			thru the default paramters 
 			
 		
+			Operator Overloading
+				def __add__(self,t,t1):
+					
+					d3=Distance(self.feet+t.feet , self.inches+t.inches)
+					return d3
+
+class Distance:
+	feet,inches 
+
+d1=Distance(2,8)
+d2=Distance(4,6)
+
+d3=d1+d2
+d3.feet= 6
+d3.inches = 14
+# backend d1-self d2-t
+d1.add(d2)
 
 
 
+				__sub__
+							
+		2. Run time/dynamic binding
+		 	e.g method overriding 
+		
+			same method name and same parameter/argument
+			use inheritance
+
+			Person 
+				display()
+					# name no
+
+			Employee(Person):
+				# salary dept
+				display - ovrridng d
+							
 
 
-
+Abstraction - showing only essential details ,other are hiding
+		1.abstract class (ABC) entends
+		2. abstract and non - abstract method		
+		3. can not instantiate/create object of abstract
+		4. abstract methods doesn't have body/declaration
+		5. implementation of abstract methods in sub class
+		
+		class vs abstract class
+		method vs abstract methodd
+ 
