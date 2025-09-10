@@ -170,3 +170,29 @@ Abstraction - showing only essential details ,other are hiding
 		class vs abstract class
 		method vs abstract methodd
  
+2 abstract class / abstract method
+	class have abstract method
+	etends ABC
+
+	class can not instantiate/create object
+	
+	abstract class extends in class
+	in this class we have overrid abstract method
+
+	Encasulation - data hide
+	data are most 
+	public - all over like name
+	protected - parent - child they can get protected data/method
+	private - with in class
+
+
+	data are private
+	getMethod
+	setMethod
+
+DR
+Appointment
+TimeSlots
+
+class 
+
